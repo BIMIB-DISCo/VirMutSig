@@ -1,0 +1,18 @@
+SRR12351658
+trimmomatic -- trimming fastq
+bwa mem -- mapping reads to a reference SARS-CoV-2
+samtools -- building sorted bam
+picard -- removing duplicates
+samtools depth -- extracting coverage information
+SRR12833518
+trimmomatic -- trimming fastq
+bwa mem -- mapping reads to a reference SARS-CoV-2
+samtools -- building sorted bam
+picard -- removing duplicates
+samtools depth -- extracting coverage information
+SRR12833639
+trimmomatic -- trimming fastq
+bwa mem -- mapping reads to a reference SARS-CoV-2
+samtools -- building sorted bam
+picard -- removing duplicates
+samtools depth -- extracting coverage information
