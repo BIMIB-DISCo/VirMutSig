@@ -10,7 +10,7 @@ variants = NULL
 for(f in paste0("vcfDir/",sort(vcf_files))) {
     if(file.info(f)$size>0) {
         curr_data = read.table(file=f,header=TRUE,sep="\t",check.names=FALSE,stringsAsFactors=FALSE)
-        curr_data = curr_data[,c("Position","Ref","VarAllele","VarAllele","Reads2","Reads1","VarFreq","Pvalue")]
+        curr_data = curr_data[,c("Position","Ref","VarAllele","Ref","Reads2","Reads1","VarFreq","Pvalue")]
         curr_data$Reads1 = curr_data$Reads1+curr_data$Reads2
         curr_patient = rep(strsplit(f,split="/")[[1]][2],nrow(curr_data))
         curr_variants = paste0(curr_data[,1],"_",curr_data[,2],"_",curr_data[,3])

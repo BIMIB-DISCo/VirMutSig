@@ -6,10 +6,10 @@ filtering_params = read.table("filtering_params.txt",sep=";",header=FALSE,row.na
 processed_variants = variants[which(variants$Reference%in%c("A","C","G","T")&variants$Variant%in%c("A","C","G","T")),]
 
 # filering
-pv_thr = variants$Pvalue<filtering_params["pv_thr",]
-var_freq_thr = variants$VariantFrequency>=filtering_params["var_freq_thr",]
-min_cov = variants$TotalCount>=filtering_params["min_cov",]
-alt_read_thr = variants$VariantCount>=filtering_params["alt_read_thr",]
+pv_thr = processed_variants$Pvalue<filtering_params["pv_thr",]
+var_freq_thr = processed_variants$VariantFrequency>=filtering_params["var_freq_thr",]
+min_cov = processed_variants$TotalCount>=filtering_params["min_cov",]
+alt_read_thr = processed_variants$VariantCount>=filtering_params["alt_read_thr",]
 processed_variants = processed_variants[which(pv_thr&var_freq_thr&min_cov&alt_read_thr),]
 
 # write results to file
