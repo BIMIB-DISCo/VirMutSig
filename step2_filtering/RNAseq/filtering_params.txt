@@ -2,4 +2,3 @@ pv_thr;0.01
 var_freq_thr;0.05
 min_cov;20
 alt_read_thr;3
-var_prev;0.25
