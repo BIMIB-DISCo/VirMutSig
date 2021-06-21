@@ -1,0 +1,17 @@
+# [variant selection]
+CLONAL_SNV_THR: 0.90    # Double [0,1]. default = 0.9
+MINOR_SNV_SEL: 'always' # String {‘always’, ‘all’}. default = ‘always’
+MAX_SNV_SAMPLE: 100     # Integer [1, Inf]. default = 100
+MIN_SNV_SAMPLE: 6       # Integer [1, Inf]. default = 6
+
+# [Analysis parameters]
+BOOTSTRAP: 'yes'        # String {‘yes’, ‘no’}. default = ‘yes’
+GOODNESS_FIT_THR: 0.95  # Double [0.5,1]. default = 0.95
+MIN_SIG_FREQ: 0.05      # Double [0,1]. default = 0.05.
+PVALUE: 0.05            # 
+NUM_ITER: 100           # Integer [1, Inf]. default = 100
+
+# [Other]
+SEED: 0                 #  Integer [0, Inf]. default =  0 (with 0 the seed will be set randomly)
+N_CORE: 4               #  Integer [0, Inf]. default = 0 (with 0 the number of core available will automatically detected)
+
