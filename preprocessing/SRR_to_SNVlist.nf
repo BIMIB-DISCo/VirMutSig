@@ -380,9 +380,9 @@ process Variant_calling {
   """
 }
 
-process make_VirMutSig_input {
+process make_SNV_list {
   
-  publishDir params.VMSdir, mode:'move'
+  publishDir params.SNVlistdir, mode:'move'
   
   input:
   path "genome.fasta" from genomeFAch 
@@ -394,7 +394,7 @@ process make_VirMutSig_input {
   
   script:
   """
-  makeVirMutSigInput.R "${VCFs}" "${DEPTHs}" genome.fasta ${params.VirMutSig_QCfilter}
+  makeVirMutSigInput.R "${VCFs}" "${DEPTHs}" genome.fasta ${params.SNV_filters}
   """
 
 }
