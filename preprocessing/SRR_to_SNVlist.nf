@@ -394,7 +394,7 @@ process make_SNV_list {
   
   script:
   """
-  makeVirMutSigInput.R "${VCFs}" "${DEPTHs}" genome.fasta ${params.SNV_filters}
+  makeSNVlist.R "${VCFs}" "${DEPTHs}" genome.fasta ${params.SNV_filters}
   """
 
 }
