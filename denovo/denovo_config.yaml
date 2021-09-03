@@ -13,4 +13,3 @@ NMF_ITER: 100           # Integer [1, inf]. default = 100
 # [Other]
 SEED: 0                 #  Integer [0, Inf]. default =  0 (with 0 the seed will be set randomly)
 N_CORE: 0               #  Integer [0, Inf]. default = 0 (with 0 the number of core available will automatically detected)
-
