@@ -367,6 +367,6 @@ process make_SNV_list {
       
   script:
   """
-  Rscript /VirMutSig/preprocessing/bin/makeSNVlist.R "${VCFs}" "${DEPTHs}" genome.fasta ${params.SNV_filters}
+  Rscript /VirMutSig/preprocessing/bin/makeSNVlist.R ./ ./ genome.fasta ${params.SNV_filters}
   """
 } 

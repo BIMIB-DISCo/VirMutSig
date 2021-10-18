@@ -2,8 +2,8 @@
 
 args <- commandArgs(trailingOnly = TRUE)
 
-SRRfiles <- strsplit(x=args[1],split = " ",fixed=TRUE)[[1]]
-DEPTHfiles <- strsplit(x=args[2],split = " ",fixed=TRUE)[[1]]
+SRRfiles_dir <- args[1]
+DEPTHfiles_dir <- args[2]
 
 refFASTAf <- file(args[3], "r")
 
@@ -22,6 +22,9 @@ for (l in readLines(con=refFASTAf,warn=FALSE)) {
     refFASTA <- c(refFASTA,nucleotides) 
   }  
 }
+
+SRRfiles <- dir(path = SRRfiles_dir, pattern = '.vcf', full.names = F, recursive = F, include.dirs = F, ignore.case = T)
+DEPTHfiles <- dir(path = DEPTHfiles_dir, pattern = '.depth.txt', full.names = F, recursive = F, include.dirs = F, ignore.case = T)
 
 # read variants
 variants = NULL
