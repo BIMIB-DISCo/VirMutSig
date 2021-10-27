@@ -6,7 +6,7 @@ VirMutSig
 
 VirMutSig is a computational tool to perform mutational signatures analysis from sequencing data obtained from SARS-CoV-2 viral genomes. The tool provides a set of functions to support the users for sequencing data retrieval and alignment and to perform de novo mutational signatures inference and assignment.
 
-For details on the use of our tool, please refer to: Maspero, D. et al. "VirMutSig: Discovery and assignment of viral mutational signatures from sequencing data", STAR Protocols 2.4 (2021): 100911. https://doi.org/10.1016/j.xpro.2021.100911
+The VirMutSig protocol is available at: Maspero, D. et al. "VirMutSig: Discovery and assignment of viral mutational signatures from sequencing data", STAR Protocols 2.4 (2021): 100911. https://doi.org/10.1016/j.xpro.2021.100911
 
 For details on the theoretical framework, please refer to: Graudenzi, A., et al. "Mutational signatures and heterogeneous host response revealed via large-scale characterization of SARS-CoV-2 genomic diversity" Iscience 24.2 (2021): 102116. https://doi.org/10.1016/j.isci.2021.102116
 
