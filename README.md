@@ -1,5 +1,5 @@
 
-![Graphical abstract](/images/graphical_abstract.pdf)
+![Graphical abstract](/images/Graphical_Abstract-01.pdf)
 
 VirMutSig
 ================
