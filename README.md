@@ -16,6 +16,9 @@ Please feel free to contact us if you have problems running our tool at: d.maspe
 Highlights
 ===============
 • Distinct mutational processes underlie the origination of viral variants
+
 • VirMutSig implements variant calling from raw sequencing data of viral genomes
+
 • The tool performs de novo discovery of mutational signatures (substitution patterns)
+
 • Robust assignment of signature activity to samples is performed via bootstrap
