@@ -1,3 +1,6 @@
+
+![Graphical abstract](/images/graphical_abstract.pdf)
+
 VirMutSig
 ================
 
