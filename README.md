@@ -10,7 +10,7 @@ The VirMutSig protocol is available at: Maspero, D. et al. "VirMutSig: Discovery
 
 For details on the theoretical framework, please refer to: Graudenzi, A., et al. "Mutational signatures and heterogeneous host response revealed via large-scale characterization of SARS-CoV-2 genomic diversity" Iscience 24.2 (2021): 102116. https://doi.org/10.1016/j.isci.2021.102116
 
-Please feel free to contact us if you have problems running our tool at: d.maspero@campus.unimib.it.
+Please feel free to contact us if you have problems running our tool at: d.maspero@campus.unimib.it and daniele.ramazzotti@unimib.it.
 
 
 Highlights
